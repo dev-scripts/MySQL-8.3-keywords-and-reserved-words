@@ -1,6 +1,7 @@
 # Find MySQL 8.3 keywords and reserved words used in column names, table names, procedures, or functions.
 
-Finding column names, table names, procedures, or functions using reserved keywords:
+Finding column names, table names, procedures, or functions using reserved keywords. This is the first step to know before upgrading
+to the MySQL 8.3
 
 ## 1. Create Reserved Words Table
 
@@ -23,7 +24,9 @@ VALUES
     -- List of reserved keywords goes here;
 ```
 
-Replace -- List of reserved keywords goes here with the list of reserved words you want to insert into the reserved_words table. Here is the attached SQL file you can run it in your local
+Replace -- List of reserved keywords goes here with the list of reserved words you want to insert into the reserved_words table.
+Here is the attached SQL file you can run it in your local
+https://github.com/dev-scripts/MySQL-8.3-keywords-and-reserved-words/blob/main/MySQL8.3_reserved_words.sql
 
 ## 3. Check for Conflicts with table Names
 
