@@ -7,6 +7,8 @@ In such cases, upgrading from an older MySQL version to a newer one (for example
 
 Before upgrading MySQL to newer version, you need to identify those keywords used in table names, column names, or function names, and escape them in codebase or queries to avoid encountering syntax errors.
 
+I am writing this post because I have been through the journey and want to share how I achieved it.
+
 Here are some simple steps you can follow to find column names, table names, procedures, or functions using reserved keywords.
 
 ## 1. Create Reserved Words Table
